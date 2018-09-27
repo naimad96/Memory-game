@@ -1,0 +1,145 @@
+body
+{
+	margin: 0;
+	background-color:white ;
+	color: #c50004;
+  font-family: 'Lobster', sans-serif;
+  font-size: 28px;
+}
+
+a:link    { color:#209781; text-decoration: none; }
+a:visited { color: #209781; }
+a:active  { color: #209781; }
+a:hover   { color: #ff0000; }
+
+h1
+{
+	width: 100%
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+p
+{
+	text-align: center;
+	width: 100%
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+header{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.board
+{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display:none;
+	padding: 20px;
+}
+.card
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("../assets/logo-mw.png");
+	border: 4px solid  #282828;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+.showncard{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	border: 4px solid  #282828;
+	border-radius: 4px;
+	transition: all .3s ease-in-out;
+	opacity: 0;
+}
+.card:hover
+{
+	border: 4px solid #c50004;
+	filter: brightness(80%);
+}
+
+.turn
+{
+	box-sizing: border-box;
+	padding: 20px;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+
+.againBtn{
+	font-weight: bold;
+	font-size: 24px;
+	color: #c50004;
+	border: 3px solid #c50004;
+}
+.againBtn:hover{
+	background-color: #b30002;
+	color:white;
+	cursor: pointer;
+}
+.resetBtn{
+	margin-bottom: 20px;
+	width: 100%;
+	font-weight: bold;
+	font-size: 24px;
+	color: #c50004;
+	border: 3px solid #c50004;
+}
+.resetBtn:hover{
+	background-color: #b30002;
+	color:white;
+	cursor: pointer;
+}
+.startBtn{
+	width: 50%;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 24px;
+	color: #c50004;
+	border: 3px solid #c50004;
+}
+.startBtn:hover{
+	background-color: #b30002;
+	color:white;
+	cursor: pointer;
+}
+.levelBtn{
+	margin-right: 20px;
+	width: 50%;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 24px;
+	color: #c50004;
+	border: 3px solid #c50004;
+	padding:10px;
+}
+.levelBtn:hover{
+	background-color: #b30002;
+	color:white;
+	cursor: pointer
+}
+.level{
+	display: flex;
+	padding: 10px;
+}
